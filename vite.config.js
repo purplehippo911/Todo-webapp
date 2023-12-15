@@ -13,4 +13,13 @@ export default defineConfig({
       "@comps": path.resolve(__dirname, "./src/components"),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `
+          @import "./src/styles/_variables.scss";
+        `
+      }
+    }
+  },
 })

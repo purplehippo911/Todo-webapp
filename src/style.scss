@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&family=Young+Serif&display=swap');
 
+
 * {
   margin: 0;
   font-size: 18px;
@@ -9,8 +10,14 @@
 
 body {
   margin: 0;
+  background: $VeryDarkBlue;
 }
 
 .row {
   display: flex;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
 }
